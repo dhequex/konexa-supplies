@@ -1,0 +1,102 @@
+{
+  "app": {
+    "title": "サプライピッカー",
+    "subtitle": "大阪万博2025"
+  },
+  "search": {
+    "title": "製品検索",
+    "placeholder": "名前で検索...",
+    "sortBy": "並び替え",
+    "sortOptions": {
+      "nameAsc": "名前 (A-Z)",
+      "nameDesc": "名前 (Z-A)",
+      "priceAsc": "価格 (安い順)",
+      "priceDesc": "価格 (高い順)"
+    },
+    "availability": "在庫状況",
+    "availabilityOptions": {
+      "all": "すべての製品",
+      "inStock": "在庫あり",
+      "outOfStock": "在庫なし"
+    },
+    "category": "カテゴリー",
+    "categoryOptions": {
+      "all": "すべてのカテゴリー",
+      "cups": "カップ",
+      "flavors": "フレーバー",
+      "consumables": "消耗品",
+      "other": "その他"
+    }
+  },
+  "product": {
+    "addToOrder": "注文に追加"
+  },
+  "cart": {
+    "title": "注文概要",
+    "empty": "注文が空です",
+    "total": "合計:",
+    "form": {
+      "name": "お名前",
+      "email": "メールアドレス",
+      "companyName": "会社名",
+      "companyAddress": "会社住所",
+      "comments": "追加コメント",
+      "submit": "注文リクエストを送信",
+      "generating": "PDF生成中..."
+    },
+    "toast": {
+      "emptyTitle": "注文が空です",
+      "emptyDesc": "送信する前に商品を注文に追加してください",
+      "missingInfoTitle": "情報が不足しています",
+      "missingInfoDesc": "お名前とメールアドレスを入力してください",
+      "processingTitle": "注文処理中",
+      "processingDesc": "PDFを生成中です。お待ちください...",
+      "successTitle": "注文が正常に処理されました！",
+      "successDesc": "注文PDFがダウンロードされます。",
+      "downloadTitle": "ダウンロード開始",
+      "downloadDesc": "自動的にダウンロードが開始されない場合は、ビューアからダウンロードできます。",
+      "errorTitle": "PDF生成エラー",
+      "errorDesc": "注文PDFの作成中にエラーが発生しました。もう一度お試しください。"
+    }
+  },
+  "pdf": {
+    "title": "注文PDF",
+    "download": "PDFをダウンロード",
+    "openInNewTab": "新しいタブで開く",
+    "downloadStarted": "ダウンロード開始",
+    "downloadStartedDesc": "PDFがダウンロードされています。",
+    "downloadFailed": "ダウンロード失敗",
+    "downloadFailedDesc": "代わりに新しいタブで開いてみてください。",
+    "cantDisplay": "お使いのブラウザではこのPDFを表示できません。代わりにダウンロードしてください。",
+    "useExternalViewer": "PDFを表示またはダウンロードするには、以下のボタンを使用してください。",
+    "orderTitle": "KONEXA 供給注文",
+    "orderNumber": "注文番号",
+    "date": "日付",
+    "customer": "お客様",
+    "email": "メール",
+    "companyName": "会社名",
+    "companyAddress": "会社住所",
+    "comments": "コメント",
+    "table": {
+      "number": "#",
+      "sku": "SKU",
+      "product": "製品",
+      "category": "カテゴリー",
+      "unitPrice": "単価",
+      "quantity": "数量",
+      "total": "合計"
+    }
+  },
+  "export": {
+    "button": "製品CSVをエクスポート",
+    "successTitle": "エクスポート成功",
+    "successDesc": "製品がCSVにエクスポートされました",
+    "errorTitle": "エクスポート失敗",
+    "errorDesc": "製品のエクスポート中にエラーが発生しました"
+  },
+  "noProducts": "検索条件に一致する製品はありません。",
+  "reorderInstructions": "製品をドラッグ＆ドロップして、お好みの順序に並べ替えることができます。",
+  "languageSwitcher": {
+    "language": "言語"
+  }
+}

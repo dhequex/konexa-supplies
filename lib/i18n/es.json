@@ -1,0 +1,102 @@
+{
+  "app": {
+    "title": "Selector de Suministros",
+    "subtitle": "Expo Osaka 2025"
+  },
+  "search": {
+    "title": "Buscar Productos",
+    "placeholder": "Buscar por nombre...",
+    "sortBy": "Ordenar Por",
+    "sortOptions": {
+      "nameAsc": "Nombre (A-Z)",
+      "nameDesc": "Nombre (Z-A)",
+      "priceAsc": "Precio (Menor a Mayor)",
+      "priceDesc": "Precio (Mayor a Menor)"
+    },
+    "availability": "Disponibilidad",
+    "availabilityOptions": {
+      "all": "Todos los Productos",
+      "inStock": "En Existencia",
+      "outOfStock": "Agotado"
+    },
+    "category": "Categoría",
+    "categoryOptions": {
+      "all": "Todas las Categorías",
+      "cups": "Tazas",
+      "flavors": "Sabores",
+      "consumables": "Consumibles",
+      "other": "Otros"
+    }
+  },
+  "product": {
+    "addToOrder": "Añadir al Pedido"
+  },
+  "cart": {
+    "title": "Resumen del Pedido",
+    "empty": "Tu pedido está vacío",
+    "total": "Total:",
+    "form": {
+      "name": "Tu Nombre",
+      "email": "Tu Correo Electrónico",
+      "companyName": "Nombre de la Empresa",
+      "companyAddress": "Dirección de la Empresa",
+      "comments": "Comentarios Adicionales",
+      "submit": "Enviar Solicitud de Pedido",
+      "generating": "Generando PDF..."
+    },
+    "toast": {
+      "emptyTitle": "Pedido vacío",
+      "emptyDesc": "Por favor añade artículos a tu pedido antes de enviar",
+      "missingInfoTitle": "Información faltante",
+      "missingInfoDesc": "Por favor proporciona tu nombre y correo electrónico",
+      "processingTitle": "Procesando tu pedido",
+      "processingDesc": "Por favor espera mientras generamos tu PDF...",
+      "successTitle": "¡Pedido procesado con éxito!",
+      "successDesc": "Tu PDF de pedido debería estar descargándose ahora.",
+      "downloadTitle": "Descarga iniciada",
+      "downloadDesc": "Si la descarga no comienza automáticamente, puedes descargar desde el visor.",
+      "errorTitle": "Error al generar PDF",
+      "errorDesc": "Hubo un error al crear tu PDF de pedido. Por favor intenta de nuevo."
+    }
+  },
+  "pdf": {
+    "title": "Tu PDF de Pedido",
+    "download": "Descargar PDF",
+    "openInNewTab": "Abrir en Nueva Pestaña",
+    "downloadStarted": "Descarga Iniciada",
+    "downloadStartedDesc": "Tu PDF se está descargando ahora.",
+    "downloadFailed": "Descarga Fallida",
+    "downloadFailedDesc": "Por favor intenta abrir en una nueva pestaña.",
+    "cantDisplay": "Tu navegador no puede mostrar este PDF. Por favor descárgalo.",
+    "useExternalViewer": "Por favor usa los botones de abajo para ver o descargar tu PDF.",
+    "orderTitle": "Pedido de Suministros KONEXA",
+    "orderNumber": "Número de Pedido",
+    "date": "Fecha",
+    "customer": "Cliente",
+    "email": "Correo Electrónico",
+    "companyName": "Nombre de la Empresa",
+    "companyAddress": "Dirección de la Empresa",
+    "comments": "Comentarios",
+    "table": {
+      "number": "#",
+      "sku": "SKU",
+      "product": "Producto",
+      "category": "Categoría",
+      "unitPrice": "Precio Unitario",
+      "quantity": "Cantidad",
+      "total": "Total"
+    }
+  },
+  "export": {
+    "button": "Exportar CSV de Productos",
+    "successTitle": "Exportación Exitosa",
+    "successDesc": "Los productos han sido exportados a CSV",
+    "errorTitle": "Error en la Exportación",
+    "errorDesc": "Hubo un error al exportar los productos"
+  },
+  "noProducts": "Ningún producto coincide con tus criterios de búsqueda.",
+  "reorderInstructions": "Arrastra y suelta los productos para reordenarlos según tu preferencia.",
+  "languageSwitcher": {
+    "language": "Idioma"
+  }
+}

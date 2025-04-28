@@ -1,0 +1,102 @@
+{
+  "app": {
+    "title": "Supply Picker",
+    "subtitle": "Expo Osaka 2025"
+  },
+  "search": {
+    "title": "Search Products",
+    "placeholder": "Search by name...",
+    "sortBy": "Sort By",
+    "sortOptions": {
+      "nameAsc": "Name (A-Z)",
+      "nameDesc": "Name (Z-A)",
+      "priceAsc": "Price (Low to High)",
+      "priceDesc": "Price (High to Low)"
+    },
+    "availability": "Availability",
+    "availabilityOptions": {
+      "all": "All Products",
+      "inStock": "In Stock",
+      "outOfStock": "Out of Stock"
+    },
+    "category": "Category",
+    "categoryOptions": {
+      "all": "All Categories",
+      "cups": "Cups",
+      "flavors": "Flavors",
+      "consumables": "Consumables",
+      "other": "Other"
+    }
+  },
+  "product": {
+    "addToOrder": "Add to Order"
+  },
+  "cart": {
+    "title": "Order Summary",
+    "empty": "Your order is empty",
+    "total": "Total:",
+    "form": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "companyName": "Company Name",
+      "companyAddress": "Company Address",
+      "comments": "Additional Comments",
+      "submit": "Submit Order Request",
+      "generating": "Generating PDF..."
+    },
+    "toast": {
+      "emptyTitle": "Order is empty",
+      "emptyDesc": "Please add items to your order before submitting",
+      "missingInfoTitle": "Missing information",
+      "missingInfoDesc": "Please provide your name and email",
+      "processingTitle": "Processing your order",
+      "processingDesc": "Please wait while we generate your PDF...",
+      "successTitle": "Order processed successfully!",
+      "successDesc": "Your order PDF should be downloading now.",
+      "downloadTitle": "Download initiated",
+      "downloadDesc": "If the download doesn't start automatically, you can download from the viewer.",
+      "errorTitle": "Error generating PDF",
+      "errorDesc": "There was an error creating your order PDF. Please try again."
+    }
+  },
+  "pdf": {
+    "title": "Your Order PDF",
+    "download": "Download PDF",
+    "openInNewTab": "Open in New Tab",
+    "downloadStarted": "Download Started",
+    "downloadStartedDesc": "Your PDF is downloading now.",
+    "downloadFailed": "Download Failed",
+    "downloadFailedDesc": "Please try opening in a new tab instead.",
+    "cantDisplay": "Your browser cannot display this PDF. Please download it instead.",
+    "useExternalViewer": "Please use the buttons below to view or download your PDF.",
+    "orderTitle": "KONEXA Supply Order",
+    "orderNumber": "Order Number",
+    "date": "Date",
+    "customer": "Customer",
+    "email": "Email",
+    "companyName": "Company Name",
+    "companyAddress": "Company Address",
+    "comments": "Comments",
+    "table": {
+      "number": "#",
+      "sku": "SKU",
+      "product": "Product",
+      "category": "Category",
+      "unitPrice": "Unit Price",
+      "quantity": "Quantity",
+      "total": "Total"
+    }
+  },
+  "export": {
+    "button": "Export Products CSV",
+    "successTitle": "Export Successful",
+    "successDesc": "Products have been exported to CSV",
+    "errorTitle": "Export Failed",
+    "errorDesc": "There was an error exporting the products"
+  },
+  "noProducts": "No products match your search criteria.",
+  "reorderInstructions": "Drag and drop products to reorder them according to your preference.",
+  "languageSwitcher": {
+    "language": "Language"
+  }
+}
